@@ -1,0 +1,90 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5; /* warm grey */
+    color: #333; /* dark text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #002147; /* deep blue */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    background-color: white;
+}
+
+/* Links */
+a {
+    color: #2A5D31; /* rich green */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #002147; /* deep blue */
+}
+
+/* Footer */
+footer {
+    background-color: #2A5D31; /* rich green */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Page sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+button {
+    background-color: #002147; /* deep blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2A5D31; /* rich green */
+}
+/* Navigation bar styles */
+nav {
+    background-color: #2A5D31; /* rich green */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* This makes the list horizontal */
+    justify-content: center; /* Centers the list items */
+}
+
+nav ul li {
+    margin: 0 20px; /* Space between each link */
+}
+
+nav ul li a {
+    color: rgb(210, 185, 22); /* Text color */
+    text-decoration: none; /* Removes underline */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white; /* Hover color changed to white */
+    background-color: transparent; /* No background on hover */
+    border-radius: 5px; /* Optional: adds rounded corners */
+}
